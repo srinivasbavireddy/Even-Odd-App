@@ -1,0 +1,56 @@
+.app-container {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.even-odd-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  border-radius: 8px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  text-align: center;
+  min-height: 50vh;
+  min-width: 300px;
+  padding: 14px;
+}
+
+@media screen and (min-width:768px){
+    .even-odd-container{
+        min-width: 400px;
+    }
+}
+
+.title {
+  color: #0f172a;
+  font-size: 40px;
+}
+
+.content {
+  color: #334155;
+  font-size: 32px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 12px;
+  height: 48px;
+  text-align: center;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 12px;
+}
